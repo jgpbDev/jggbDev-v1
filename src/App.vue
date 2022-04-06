@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-main>
+      <Cosa />
       <HelloWorld/>
       <!-- Hola mundo -->
     </v-main>
@@ -9,12 +10,14 @@
 
 <script>
 import HelloWorld from './components/HelloWorld';
+import Cosa from './components/App/Navbar';
 
 export default {
   name: 'App',
 
   components: {
     HelloWorld,
+    Cosa
   },
 
   data: () => ({
