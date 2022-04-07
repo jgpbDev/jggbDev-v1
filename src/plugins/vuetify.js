@@ -10,6 +10,11 @@ export default new Vuetify({
       dark: {
         primary: "#000733",
         secondary: "#FFFFFF",
+        accent: "#FFFFFF",
+        error: "#BF3D3D",
+        info: "#196DB3",
+        success: "#367D38",
+        warning: "#E6AE07",
       },
     },
   },

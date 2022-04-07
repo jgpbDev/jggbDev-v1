@@ -1,23 +1,22 @@
 <template>
   <v-app>
     <v-main>
-      <Cosa />
+      <TheNavbar />
       <HelloWorld/>
-      <!-- Hola mundo -->
     </v-main>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld';
-import Cosa from './components/App/Navbar';
+import TheNavbar from './components/App/Navbar';
 
 export default {
   name: 'App',
 
   components: {
     HelloWorld,
-    Cosa
+    TheNavbar
   },
 
   data: () => ({
