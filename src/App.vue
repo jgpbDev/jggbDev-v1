@@ -2,20 +2,20 @@
   <v-app>
     <v-main>
       <TheNavbar />
-      <HelloWorld/>
+      <GreetingSection/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import GreetingSection from './components/GreetingSection';
 import TheNavbar from './components/App/Navbar';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    GreetingSection,
     TheNavbar
   },
 
